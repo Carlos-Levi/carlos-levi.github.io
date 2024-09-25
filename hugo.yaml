@@ -1,0 +1,65 @@
+baseURL: https://carlos-levi.github.io/
+languageCode: en-us
+title: Levi Vieira
+theme: ["PaperMod"]
+
+taxonomies:
+  tag: "tags"
+
+params:
+  homeInfoParams:
+    Title: Hi there! 🇧🇷 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+    Content: Welcome to my digital space where I document my learnings as a Software Engineer. 
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    safari_pinned_tab: "/favicon-16x16.png"
+
+  socialIcons:
+  - name: github
+    url: 'https://github.com/carlos-levi'
+  - name: linkedin
+    url: 'https://linkedin/levi-vieira'
+  - name: instagram
+    url: 'https://www.instagram.com/levisntt/'
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 40
+
+# For search: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
