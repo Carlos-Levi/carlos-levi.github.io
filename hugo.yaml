@@ -9,7 +9,7 @@ taxonomies:
 params:
   homeInfoParams:
     Title: Hi there! 🇧🇷 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-    Content: Welcome to my digital space where I document my learnings as a Software Engineer. 
+    Content: Welcome to my digital space where I document my learnings as a Software Engineer.
 
   assets:
     # disableHLJS: true # to disable highlight.js
