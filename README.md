@@ -32,10 +32,10 @@ Pretendo manter o blog atualizado e incorporar novas funcionalidades ao longo do
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/carlos-levi/carlos-levi.github.io.git
 2. Navegue até o diretório do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd carlos-levi.github.io
    ```
 3. Instale o **Hugo** se ainda não o fez:
    - [Guia de instalação](https://gohugo.io/getting-started/installing/)
