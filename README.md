@@ -14,7 +14,7 @@
 
 O tema escolhido para o blog foi o [**PaperMod**](https://github.com/adityatelange/hugo-PaperMod), utilizando o ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) framework de geração de sites estáticos, que traz uma estética minimalista e funcionalidades eficientes. Além disso, escrevo meus textos principalmente utilizando ![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white), que facilita a formatação simples e eficaz das postagens.
 
-Agradecimentos aos repositórios que me ajudaram:
+Repositórios que me ajudaram:
 
 - [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 - [Hugo Framework](https://github.com/gohugoio/hugo)
