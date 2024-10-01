@@ -64,7 +64,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: hugo-pages-artifact  # Nome único para o artefato
 
   # Deployment job
   deploy:
@@ -77,3 +76,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # O nome do artefato deve corresponder ao nome usado na etapa de upload
+          artifact: public
