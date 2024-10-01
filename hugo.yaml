@@ -63,3 +63,6 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+
+# Enable emoji support
+enableEmoji: true

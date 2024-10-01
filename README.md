@@ -28,22 +28,36 @@ Pretendo manter o blog atualizado e incorporar novas funcionalidades ao longo do
 - **Tags**: Sistema de categorização das postagens por tópicos.
 - **Search**: Ferramenta de busca para navegar pelas postagens.
 
+Claro! Aqui está o trecho atualizado em formato Markdown:
+
+```markdown
 ## Como rodar o projeto localmente
 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/carlos-levi/carlos-levi.github.io.git
+   ```
 2. Navegue até o diretório do projeto:
    ```bash
    cd carlos-levi.github.io
    ```
 3. Instale o **Hugo** se ainda não o fez:
    - [Guia de instalação](https://gohugo.io/getting-started/installing/)
-4. Inicie o servidor local:
+4. Instale o tema **PaperMod**:
+   ```bash
+   cd themes
+   git clone https://github.com/adityatelange/hugo-PaperMod.git
+   ```
+5. Volte para o diretório do projeto:
+   ```bash
+   cd ..
+   ```
+6. Inicie o servidor local:
    ```bash
    hugo serve
    ```
-5. Acesse `http://localhost:1313` para visualizar o blog.
+7. Acesse `http://localhost:1313` para visualizar o blog.
+```
 
 ## Contribuições
 
