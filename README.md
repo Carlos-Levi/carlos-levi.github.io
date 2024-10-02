@@ -28,8 +28,6 @@ Pretendo manter o blog atualizado e incorporar novas funcionalidades ao longo do
 - **Tags**: Sistema de categorização das postagens por tópicos.
 - **Search**: Ferramenta de busca para navegar pelas postagens.
 
-Claro! Aqui está o trecho atualizado em formato Markdown:
-
 ```markdown
 ## Como rodar o projeto localmente
 
