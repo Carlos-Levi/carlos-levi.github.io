@@ -1,34 +1,45 @@
 baseURL: https://carlos-levi.github.io/
-languageCode: en-us
+defaultContentLanguage: pt
+languageCode: pt-br
 title: Levi Vieira
-theme: ["PaperMod"]
+theme: ["PaperMod"] 
+
+languages:
+  pt:
+    languageName: "Português"
+    weight: 1
+    title: "Levi Vieira"
+    params:
+      homeInfoParams:
+        Title: "Olá! 🇧🇷 🏴"
+        Content: "Bem-vindo ao meu espaço digital onde documento meus aprendizados como Engenheiro de Software."
+  en:
+    languageName: "English"
+    weight: 2
+    title: "Levi Vieira"
+    params:
+      homeInfoParams:
+        Title: "Hi there! 🇧🇷 🏴"
+        Content: "Welcome to my digital space where I document my learnings as a Software Engineer."
 
 taxonomies:
   tag: "tags"
 
 params:
-  homeInfoParams:
-    Title: Hi there! 🇧🇷 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-    Content: Welcome to my digital space where I document my learnings as a Software Engineer.
-
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     safari_pinned_tab: "/favicon-16x16.png"
 
   socialIcons:
-  - name: github
-    url: 'https://github.com/carlos-levi'
-  - name: linkedin
-    url: 'https://www.linkedin.com/in/levi-vieira'
-  - name: instagram
-    url: 'https://www.instagram.com/levisntt/'
+    - name: github
+      url: 'https://github.com/carlos-levi'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/levi-vieira'
+    - name: instagram
+      url: 'https://www.instagram.com/levisntt/'
 
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -41,28 +52,35 @@ params:
 menu:
   main:
     - identifier: about
-      name: about
-      url: /about/
+      name: sobre
+      url: /sobre/
       weight: 10
+      languages:
+        en:
+          name: about
     - identifier: archive
-      name: archive
-      url: /archive/
+      name: arquivo
+      url: /arquivo/
       weight: 20
+      languages:
+        en:
+          name: archive
     - identifier: tags
       name: tags
       url: /tags/
       weight: 30
     - identifier: search
-      name: search
-      url: /search/
+      name: buscar
+      url: /buscar/
       weight: 40
+      languages:
+        en:
+          name: search
 
-# For search: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
 outputs:
   home:
     - HTML
     - RSS
-    - JSON # is necessary
+    - JSON
 
-# Enable emoji support
 enableEmoji: true
