@@ -1,15 +1,16 @@
 ---
-title: "About me"
+title: "About"
 author: "Levi Vieira"
 date: 2024-09-25T17:36:07+12:00
-
+layout: "about" # layout personalizado
 tags: ["Levi Vieira"]
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: ""
+description: "Levi Vieira, a passionate Computer Engineer and Software Developer."
+summary: "Discover who Levi Vieira is, his background, and his passion for technology and innovation."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -42,7 +43,6 @@ My journey into technology began at university, where I developed a passion for 
 * **Web Development:** Experience with **Next.js** and **Figma**. I am exploring other frameworks and languages to expand my knowledge.
 
 * **Software Development:** Proficiency in **Python** and **C++**, with additional knowledge in several other languages.
-
 
 * **IT Support Skills:**
   - Knowledge in troubleshooting hardware and software issues.

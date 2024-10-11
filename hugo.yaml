@@ -1,31 +1,15 @@
 baseURL: https://carlos-levi.github.io/
-defaultContentLanguage: pt
-languageCode: pt-br
 title: Levi Vieira
-theme: ["PaperMod"] 
-
-languages:
-  pt:
-    languageName: "Português"
-    weight: 1
-    title: "Levi Vieira"
-    params:
-      homeInfoParams:
-        Title: "Olá! 🇧🇷 🏴"
-        Content: "Bem-vindo ao meu espaço digital onde documento meus aprendizados como Engenheiro de Software."
-  en:
-    languageName: "English"
-    weight: 2
-    title: "Levi Vieira"
-    params:
-      homeInfoParams:
-        Title: "Hi there! 🇧🇷 🏴"
-        Content: "Welcome to my digital space where I document my learnings as a Software Engineer."
+theme: ["PaperMod"]
 
 taxonomies:
   tag: "tags"
 
 params:
+  homeInfoParams:
+    Title: Hi there! 
+    Content: Welcome to my digital space where I document my learnings as a Software Engineer.
+
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
@@ -40,6 +24,7 @@ params:
     - name: instagram
       url: 'https://www.instagram.com/levisntt/'
 
+  # Search configuration
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -49,38 +34,97 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-menu:
-  main:
-    - identifier: about
-      name: sobre
-      url: /sobre/
-      weight: 10
-      languages:
-        en:
-          name: about
-    - identifier: archive
-      name: arquivo
-      url: /arquivo/
-      weight: 20
-      languages:
-        en:
-          name: archive
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 30
-    - identifier: search
-      name: buscar
-      url: /buscar/
-      weight: 40
-      languages:
-        en:
-          name: search
+  # Language button settings
+  displayFullLangName: true
 
+  # Other options
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+languages:
+  pt:
+    languageAltTitle: "Português"
+    LanguageName: "🇧🇷"
+    weight: 1
+    contentDir: content/pt
+    homeInfoParams:
+      Title: "Olá! "
+      Content: "Bem-vindo ao meu espaço digital onde documento meus aprendizados como Engenheiro de Software."
+    menu:
+      main:
+        - identifier: sobre
+          name: sobre
+          url: /sobre/
+          weight: 10
+        - identifier: arquivos
+          name: arquivos
+          url: /arquivos/
+          weight: 30
+        - identifier: projetos
+          name: projetos
+          url: /projetos/
+          weight: 40
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 50
+        - identifier: buscar
+          name: buscar
+          url: /buscar/
+          weight: 60
+
+  en:
+    languageAltTitle: "English"
+    LanguageName: "🇺🇸"
+    weight: 2
+    contentDir: content/en
+    homeInfoParams:
+      Title: "Hi there!"
+      Content: "Welcome to my digital space where I document my learnings as a Software Engineer."
+    menu:
+      main:
+        - identifier: about
+          name: about
+          url: /about/
+          weight: 10
+        - identifier: archives
+          name: archives
+          url: /archives/
+          weight: 30
+        - identifier: projects
+          name: projects
+          url: /projects/
+          weight: 40
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 50
+        - identifier: search
+          name: search
+          url: /search/
+          weight: 60          
+
+# Outputs for the homepage
 outputs:
   home:
     - HTML
     - RSS
-    - JSON
+    - JSON # Necessary for search functionality
 
+# Enable emoji support
 enableEmoji: true
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai

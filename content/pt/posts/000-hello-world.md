@@ -1,5 +1,5 @@
 +++
-title = 'Meu Primeiro Post'
+title = 'Olá Mundo'
 date = 2024-09-25T09:24:33-03:00
 draft = false
 
@@ -21,10 +21,6 @@ ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 +++
-
-## Introdução
-
-Olá, mundo!
 
 Criei este site para compartilhar meus aprendizados na programação, e na área de TI de modo geral. Hoje foi um dia em que aprendi a usar o framework [Hugo](https://gohugo.io), que apliquei para construir este blog com a ajuda do tema [PaperMod](https://github.com/adityatelange/hugo-PaperMod/).
 

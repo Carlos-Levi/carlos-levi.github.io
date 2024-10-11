@@ -1,5 +1,6 @@
 ---
-title: "Archive"
+title: "Archives"
+slug: "archives"  
 layout: "archives"
 summary: "archives"
 ---

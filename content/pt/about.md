@@ -1,8 +1,10 @@
 ---
-title: "Sobre Mim"
+title: "Sobre"
+slug: "sobre"  
+
 author: "Levi Vieira"
 date: 2024-09-25T17:36:07+12:00
-
+layout: "about" # Para um layout específico
 tags: ["Levi Vieira"]
 showToc: true
 TocOpen: false
@@ -11,7 +13,7 @@ hidemeta: false
 comments: false
 description: ""
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
+disableHLJS: true
 disableShare: true
 hideSummary: true
 searchHidden: false
@@ -22,11 +24,11 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    image: "<image path/url>"
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false
+    hidden: true
 ---
 
 ## Quem Sou Eu
@@ -37,7 +39,7 @@ Eu sou Levi Vieira, Engenheiro da Computação e Desenvolvedor de Software, com 
 
 Minha trajetória na tecnologia começou na faculdade de Engenharia da Computação, onde desenvolvi uma paixão pela criação de sistemas eficientes e pela interação entre software e hardware. Como monitor em disciplinas voltadas para sistemas embarcados, aprimorei minhas habilidades em integração tecnológica, além de ganhar experiência prática em ensino e colaboração. Recentemente, atuei como juiz na Olimpíada Brasileira de Robótica, contribuindo com a comunidade local e incentivando novos talentos.
 
-## Minhas Habilidades
+## Skills
 
 * **Desenvolvimento Web:** Experiência com **Next.js** e **Figma**. Estou explorando outros frameworks e linguagens para expandir meu conhecimento.
 

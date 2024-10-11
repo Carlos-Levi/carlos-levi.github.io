@@ -1,5 +1,5 @@
 +++
-title = 'Criando blog com HUGO'
+title = 'Blog com HUGO'
 date = 2024-10-01T15:41:04-03:00
 draft = false
 author = "Levi Vieira"
